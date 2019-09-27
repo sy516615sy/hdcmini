@@ -1,0 +1,237 @@
+// mixin
+@import "mixin/setOnepx.less";
+@import "mixin/setArrow.less";
+@import "mixin/text.less";
+
+
+// variable
+@import "variable/global.less";
+@import "variable/color.less";
+
+
+@import "variable/weui-cell.less";
+@import "variable/weui-button.less";
+@import "variable/weui-msg.less";
+@import "variable/weui-grid.less";
+@import "variable/weui-progress.less";
+@import "variable/weui-dialog.less";
+
+page{
+    height: 100%;
+    background-color: @color-bg-body;
+  }
+  
+  .mr10{margin-right: 10rpx}
+  .mr20{margin-right: 20rpx}
+  .ml10{margin-left: 10rpx}
+  .ml20{margin-left: 20rpx}
+  .mt10{margin-top: 10rpx}
+  .mt20{margin-top: 20rpx}
+  .mb10{margin-bottom: 10rpx}
+  .mb20{margin-bottom: 20rpx}
+  
+  
+  text, view {
+    font-size: @text-nm;
+    color: @color-normal;
+  }
+  
+  .form {
+    text,view{
+      font-size: @text-form;
+    }
+  }
+  
+  button[type="primary"]{
+    background-color: @color-primary;
+  }
+  button.pain-btn[open-type="share"]{
+    background-color: transparent;
+    line-height: normal;
+    padding: 0;
+    margin: 0;
+  }
+  button{
+    margin:0;
+  }
+  .weui-btn.mini-btn{
+    margin-top: 0;
+  }
+  button.pain-btn[open-type="share"]::after {
+    border:none;
+  }
+  button[plain]{
+    border:none;
+  }
+  
+  .button-hover[type="primary"]{
+    background-color: @color-primary-darken;
+  }
+  
+  text.white{color:#FFF}
+  text.muted,input.muted,view.muted{color: @color-muted}
+  text.weak{color: @color-weak}
+  text.primary{color: @color-primary}
+  text.major{color: @color-major}
+  text.danger{color: @color-danger}
+  
+  text.xl{font-size: @text-xl}
+  text.xxl{font-size: @text-xxl}
+  text.lg{font-size: @text-lg}
+  text.sm{font-size: @text-sm}
+  text.xs{font-size: @text-xs}
+  text.xxs{font-size: @text-xxs}
+  
+  text.inline{
+    text-overflow: ellipsis;
+    word-break:keep-all;
+    white-space:nowrap;
+    overflow:hidden;
+  }
+  text.cancel{
+    font-size: @text-sm;
+    color: @color-muted;
+    text-decoration: line-through;
+  }
+  
+  view.bg-white{background-color: white}
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .row-center{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .row-between {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .row-around {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .row-end {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .column {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .column-center{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .column-around{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .column-between{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .fixed-bottom{
+    position: fixed;
+    bottom: 0;
+  }
+  
+  
+  .icon {
+    .icon-image(20px);
+  }
+  .icon-lg {
+    .icon-image(30px);
+  }
+  .icon-xl {
+    .icon-image(50px);
+  }
+  .icon-xxl{
+    .icon-image(60px);
+  }
+  .icon-round {
+    border-radius: 50%;
+  }
+  
+  .hr{
+    width: 100%;
+    height: 6rpx;
+  }
+  .h-gap{
+    width: 100%;
+    height: 10px;
+  }
+  
+  .tab-border{
+    position: fixed;
+    height: 1px;
+    width: 100%;
+    background-color: #E6E8EB;
+    bottom: 0;
+  }
+  
+  .panel {
+    background: #fff;
+    border-top: @border;
+    border-bottom: @border;
+    margin-top: 10rpx;
+    overflow: hidden;
+  }
+  .label {
+    display: inline-block;
+    font-size: 12px;
+    height: 28px;
+    line-height: 28px;
+    color: #333;
+    border: 1rpx solid #999;
+    padding: 0 10px;
+    border-radius: 2px;
+    margin-right: 10px;
+    box-sizing: border-box;
+    vertical-align: middle;
+    text-align: center;
+    &.primary {
+      color: #fff;
+      background: @color-primary;
+      border: 1rpx solid @color-primary;
+    }
+    &.disabled {
+      color: #cacaca;
+      background: #eee;
+      border: 1rpx solid #e5e5e5;
+    }
+    &.small {
+      font-size: 11px;
+      height: 20px;
+      line-height: 18px;
+      padding: 0 3px;
+    }
+    &.pain.primary {
+      color: @color-primary;
+      background: #fff;
+    }
+  }

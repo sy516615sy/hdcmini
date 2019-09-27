@@ -1,0 +1,289 @@
+<template>
+  <view>
+    <view class="cu-bar search bg-white">
+      <view class="action">
+        <text>广州</text>
+        <text class="cuIcon-triangledownfill"></text>
+      </view>
+      <view class="search-form round">
+        <text class="cuIcon-search"></text>
+        <input type="text" placeholder="请输入公司" confirm-type="search" />
+      </view>
+      <view class="action">
+        <button class="cu-btn bg-blue shadow-blur round">搜索</button>
+      </view>
+    </view>
+    <view class="cu-card">
+      <view class="cu-item">
+        <view class="padding-sm">
+          <view class="text-bold text-xl">小窝置家装饰工程有限公司<view class="text-grey fr">3.1km</view></view>
+        </view>
+        <view class="content">
+          <view class="grid col-3">
+            <view>
+              <image class="fl padding-xs" src="/content/district.png" style="height:200rpx;"/>
+            </view>
+            <view>
+              <image class="fl padding-xs" src="/content/district.png" style="height:200rpx;"/>
+            </view>
+            <view>
+              <image class="fl padding-xs" src="/content/district.png" style="height:200rpx;"/>
+            </view>
+          </view>
+          
+          <view class="flex">
+            <view class="padding-xs flex-twice">
+              <view class="flex margin-bottom-sm">   
+                <view class="cu-capsule round">
+                  <view class="cu-tag bg-orange">43</view>
+                  <view class="cu-tag line-blue">案例</view>
+                </view>
+                <view class="cu-capsule round">
+                  <view class="cu-tag bg-orange">2.5万</view>
+                  <view class="cu-tag line-blue">口碑</view>
+                </view>
+              </view>
+              <view class="margin-bottom-sm">
+                <view class="cu-tag fl line-orange round">保证金13.0万</view>
+                <view class="cu-tag fl line-blue round">实体认证</view>
+              </view>
+            </view>
+            <view class="flex-sub">
+              <button class="cu-btn fr bg-blue margin-tb-sm lg button-hover">立即预约</button>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="cu-item">
+        <view class="padding-sm">
+          <view class="text-bold text-xl">小窝置家装饰工程有限公司<view class="text-grey fr">3.1km</view></view>
+        </view>
+        <view class="content">
+          <view class="grid col-3">
+            <view>
+              <image class="fl padding-xs" src="/content/district.png" style="height:200rpx;"/>
+            </view>
+            <view>
+              <image class="fl padding-xs" src="/content/district.png" style="height:200rpx;"/>
+            </view>
+            <view>
+              <image class="fl padding-xs" src="/content/district.png" style="height:200rpx;"/>
+            </view>
+          </view>
+          
+          <view class="flex">
+            <view class="padding-xs flex-twice">
+              <view class="flex margin-bottom-sm">   
+                <view class="cu-capsule round">
+                  <view class="cu-tag bg-orange">43</view>
+                  <view class="cu-tag line-blue">案例</view>
+                </view>
+                <view class="cu-capsule round">
+                  <view class="cu-tag bg-orange">2.5万</view>
+                  <view class="cu-tag line-blue">口碑</view>
+                </view>
+              </view>
+              <view class="margin-bottom-sm">
+                <view class="cu-tag fl line-orange round">保证金13.0万</view>
+                <view class="cu-tag fl line-blue round">实体认证</view>
+              </view>
+            </view>
+            <view class="flex-sub">
+              <button class="cu-btn fr bg-blue margin-tb-sm lg button-hover">立即预约</button>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="cu-item">
+        <view class="padding-sm">
+          <view class="text-bold text-xl">小窝置家装饰工程有限公司<view class="text-grey fr">3.1km</view></view>
+        </view>
+        <view class="content">
+          <view class="grid col-3">
+            <view>
+              <image class="fl padding-xs" src="/content/district.png" style="height:200rpx;"/>
+            </view>
+            <view>
+              <image class="fl padding-xs" src="/content/district.png" style="height:200rpx;"/>
+            </view>
+            <view>
+              <image class="fl padding-xs" src="/content/district.png" style="height:200rpx;"/>
+            </view>
+          </view>
+          
+          <view class="flex">
+            <view class="padding-xs flex-twice">
+              <view class="flex margin-bottom-sm">   
+                <view class="cu-capsule round">
+                  <view class="cu-tag bg-orange">43</view>
+                  <view class="cu-tag line-blue">案例</view>
+                </view>
+                <view class="cu-capsule round">
+                  <view class="cu-tag bg-orange">2.5万</view>
+                  <view class="cu-tag line-blue">口碑</view>
+                </view>
+              </view>
+              <view class="margin-bottom-sm">
+                <view class="cu-tag fl line-orange round">保证金13.0万</view>
+                <view class="cu-tag fl line-blue round">实体认证</view>
+              </view>
+            </view>
+            <view class="flex-sub">
+              <button class="cu-btn fr bg-blue margin-tb-sm lg button-hover">立即预约</button>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="cu-item">
+        <view class="padding-sm">
+          <view class="text-bold text-xl">小窝置家装饰工程有限公司<view class="text-grey fr">3.1km</view></view>
+        </view>
+        <view class="content">
+          <view class="grid col-3">
+            <view>
+              <image class="fl padding-xs" src="/content/district.png" style="height:200rpx;"/>
+            </view>
+            <view>
+              <image class="fl padding-xs" src="/content/district.png" style="height:200rpx;"/>
+            </view>
+            <view>
+              <image class="fl padding-xs" src="/content/district.png" style="height:200rpx;"/>
+            </view>
+          </view>
+          
+          <view class="flex">
+            <view class="padding-xs flex-twice">
+              <view class="flex margin-bottom-sm">   
+                <view class="cu-capsule round">
+                  <view class="cu-tag bg-orange">43</view>
+                  <view class="cu-tag line-blue">案例</view>
+                </view>
+                <view class="cu-capsule round">
+                  <view class="cu-tag bg-orange">2.5万</view>
+                  <view class="cu-tag line-blue">口碑</view>
+                </view>
+              </view>
+              <view class="margin-bottom-sm">
+                <view class="cu-tag fl line-orange round">保证金13.0万</view>
+                <view class="cu-tag fl line-blue round">实体认证</view>
+              </view>
+            </view>
+            <view class="flex-sub">
+              <button class="cu-btn fr bg-blue margin-tb-sm lg button-hover">立即预约</button>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="cu-item">
+        <view class="padding-sm">
+          <view class="text-bold text-xl">小窝置家装饰工程有限公司<view class="text-grey fr">3.1km</view></view>
+        </view>
+        <view class="content">
+          <view class="grid col-3">
+            <view>
+              <image class="fl padding-xs" src="/content/district.png" style="height:200rpx;"/>
+            </view>
+            <view>
+              <image class="fl padding-xs" src="/content/district.png" style="height:200rpx;"/>
+            </view>
+            <view>
+              <image class="fl padding-xs" src="/content/district.png" style="height:200rpx;"/>
+            </view>
+          </view>
+          
+          <view class="flex">
+            <view class="padding-xs flex-twice">
+              <view class="flex margin-bottom-sm">   
+                <view class="cu-capsule round">
+                  <view class="cu-tag bg-orange">43</view>
+                  <view class="cu-tag line-blue">案例</view>
+                </view>
+                <view class="cu-capsule round">
+                  <view class="cu-tag bg-orange">2.5万</view>
+                  <view class="cu-tag line-blue">口碑</view>
+                </view>
+              </view>
+              <view class="margin-bottom-sm">
+                <view class="cu-tag fl line-orange round">保证金13.0万</view>
+                <view class="cu-tag fl line-blue round">实体认证</view>
+              </view>
+            </view>
+            <view class="flex-sub">
+              <button class="cu-btn fr bg-blue margin-tb-sm lg button-hover">立即预约</button>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="cu-item">
+        <view class="padding-sm">
+          <view class="text-bold text-xl">小窝置家装饰工程有限公司<view class="text-grey fr">3.1km</view></view>
+        </view>
+        <view class="content">
+          <view class="grid col-3">
+            <view>
+              <image class="fl padding-xs" src="/content/district.png" style="height:200rpx;"/>
+            </view>
+            <view>
+              <image class="fl padding-xs" src="/content/district.png" style="height:200rpx;"/>
+            </view>
+            <view>
+              <image class="fl padding-xs" src="/content/district.png" style="height:200rpx;"/>
+            </view>
+          </view>
+          
+          <view class="flex">
+            <view class="padding-xs flex-twice">
+              <view class="flex margin-bottom-sm">   
+                <view class="cu-capsule round">
+                  <view class="cu-tag bg-orange">43</view>
+                  <view class="cu-tag line-blue">案例</view>
+                </view>
+                <view class="cu-capsule round">
+                  <view class="cu-tag bg-orange">2.5万</view>
+                  <view class="cu-tag line-blue">口碑</view>
+                </view>
+              </view>
+              <view class="margin-bottom-sm">
+                <view class="cu-tag fl line-orange round">保证金13.0万</view>
+                <view class="cu-tag fl line-blue round">实体认证</view>
+              </view>
+            </view>
+            <view class="flex-sub">
+              <button class="cu-btn fr bg-blue margin-tb-sm lg button-hover">立即预约</button>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>
+
+<script>
+  import wepy from 'wepy'
+
+  export default class Company extends wepy.page {
+    config = {
+      navigationBarTitleText: '装修公司'
+    }
+    components = {
+    }
+
+    data = {
+    }
+
+    computed = {
+      now () {
+        return +new Date()
+      }
+    }
+
+    methods = {
+    }
+
+    events = {
+    }
+
+    onLoad() {
+    }
+  }
+</script>

@@ -1,0 +1,37 @@
+<style lang="less">
+  .counter {
+    text-align: left;
+    font-size: 12px;
+  }
+  .count {
+    font-size: 18px;
+    font-weight: bold;
+    &.red {
+      color: red;
+    }
+    &.green {
+      color: green;
+    }
+  }
+</style>
+<template>
+
+</template>
+<script>
+  import wepy from 'wepy'
+  export default class List extends wepy.component {
+    props = {
+    }
+
+    data = {
+    }
+    events = {
+    }
+
+    watch = {
+    }
+
+    methods = {
+    }
+  }
+</script>

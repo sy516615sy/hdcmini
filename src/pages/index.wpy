@@ -1,0 +1,194 @@
+<style lang="less">
+.top-bg{
+  background-image:url("data:image/png;base64,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"); 
+  background-repeat: no-repeat;
+  background-size:100%;
+}
+</style>
+<template>
+<view class="top-bg padding">
+    <view class="grid col-1 margin-bottom text-center">
+      <image src="/content/home_ad.png" style="width:100%;height:350rpx;" />
+    </view>
+  <view class="grid col-2 margin-bottom text-center">
+    <view>
+      <image class="fl" src="/content/home_ad_5s.png" style="width:100%;height:240rpx;" />  
+    </view>
+    <view>
+      <image class="fr" src="/content/home_ad_0r.png" style="width:100%;height:240rpx;" />  
+    </view>    
+  </view>
+  <view class="grid col-1 margin-bottom text-center">
+    <image src="/content/home_ad_what.png" style="width:100%;height:240rpx;" />
+  </view>
+  <view style="width:100%;">
+    <view style="width:100%;overflow: hidden;">
+      <view style="border-left:8rpx #009fe9 solid;line-height:60rpx;font-size:35rpx;padding-left:10rpx;">最新案例</view>
+      <view style="padding:10rpx 5rpx;width:300%;">
+        <view style="float:left;border-radius:10rpx;border:solid #9e9e9e 1rpx;margin:0 5rpx;">
+          <view><image src="/content/district.png" style="width:230rpx;height:230rpx;border-top-left-radius:10rpx;border-top-right-radius:10rpx;"></image></view>
+          <view style="text-align:center;font-size:30rpx;padding:15rpx;">花园小区</view>
+        </view>
+        <view style="float:left;border-radius:10rpx;border:solid #9e9e9e 1rpx;margin:0 5rpx;">
+          <view><image src="/content/district.png" style="width:230rpx;height:230rpx;border-top-left-radius:10rpx;border-top-right-radius:10rpx;"></image></view>
+          <view style="text-align:center;font-size:30rpx;padding:15rpx;">花园小区</view>
+        </view>
+        <view style="float:left;border-radius:10rpx;border:solid #9e9e9e 1rpx;margin:0 5rpx;">
+          <view><image src="/content/district.png" style="width:230rpx;height:230rpx;border-top-left-radius:10rpx;border-top-right-radius:10rpx;"></image></view>
+          <view style="text-align:center;font-size:30rpx;padding:15rpx;">花园小区</view>
+        </view>
+        <view style="float:left;border-radius:10rpx;border:solid #9e9e9e 1rpx;margin:0 5rpx;">
+          <view><image src="/content/district.png" style="width:230rpx;height:230rpx;border-top-left-radius:10rpx;border-top-right-radius:10rpx;"></image></view>
+          <view style="text-align:center;font-size:30rpx;padding:15rpx;">花园小区</view>
+        </view>
+        <view style="float:left;border-radius:10rpx;border:solid #9e9e9e 1rpx;margin:0 5rpx;">
+          <view><image src="/content/district.png" style="width:230rpx;height:230rpx;border-top-left-radius:10rpx;border-top-right-radius:10rpx;"></image></view>
+          <view style="text-align:center;font-size:30rpx;padding:15rpx;">花园小区</view>
+        </view>
+      </view>
+    </view>
+    </view>
+  <view class="cu-bar bg-white solid-bottom margin-top">
+    <view class="action">
+      <text class="cuIcon-title text-orange "></text> 已有5888位合作客户
+    </view>
+  </view>
+  <view class="cu-list menu">
+     <view class="cu-item" style="min-height:0;">
+      <view class="content">
+        <text class="text-grey">湖北叶先生</text><text class="text-grey">158****4448</text>
+      </view>
+      <view class="action">
+        <text class="text-grey text-sm">5分钟前成功获取报价</text>
+      </view>
+    </view>
+    <view class="cu-item" style="min-height:0;">
+      <view class="content">
+        <text class="text-grey">湖北叶先生</text><text class="text-grey">158****4448</text>
+      </view>
+      <view class="action">
+        <text class="text-grey text-sm">5分钟前成功获取报价</text>
+      </view>
+    </view>
+  </view>
+
+
+
+
+</view>
+</template>
+
+<script>
+import wepy from 'wepy'
+import { connect } from 'wepy-redux'
+import Panel from '@/components/panel' // alias example
+import Counter from 'counter' // alias example
+import List from '../components/list' // aliasFields example
+import moduleA from 'module-a' // aliasFields ignore module example
+import Group from '../components/group'
+import Toast from 'wepy-com-toast'
+import testMixin from '../mixins/test'
+
+console.log('moduleA ignored: ', moduleA) // => moduleA ignored: {}
+
+@connect({
+  num(state) {
+    return state.counter.num
+  },
+  asyncNum(state) {
+    return state.counter.asyncNum
+  },
+  sumNum(state) {
+    return state.counter.num + state.counter.asyncNum
+  }
+})
+export default class Index extends wepy.page {
+  config = {
+    navigationBarTitleText: '首页'
+  };
+  components = {
+    panel: Panel,
+    counter1: Counter,
+    counter2: Counter,
+    list: List,
+    group: Group,
+    toast: Toast
+  };
+
+  mixins = [testMixin];
+
+  data = {
+    mynum: 20,
+    userInfo: {
+      nickName: '加载中...'
+    },
+    normalTitle: '原始标题',
+    setTimeoutTitle: '标题三秒后会被修改',
+    count: 0,
+    netrst: '',
+    groupList: [
+      {
+        id: 1,
+        name: '点击改变',
+        list: [
+          {
+            childid: '1.1',
+            childname: '子项，点我改变'
+          },
+          {
+            childid: '1.2',
+            childname: '子项，点我改变'
+          },
+          {
+            childid: '1.3',
+            childname: '子项，点我改变'
+          }
+        ]
+      },
+      {
+        id: 2,
+        name: '点击改变',
+        list: [
+          {
+            childid: '2.1',
+            childname: '子项，点我改变'
+          },
+          {
+            childid: '2.2',
+            childname: '子项，点我改变'
+          },
+          {
+            childid: '2.3',
+            childname: '子项，点我改变'
+          }
+        ]
+      },
+      {
+        id: 3,
+        name: '点击改变',
+        list: [
+          {
+            childid: '3.1',
+            childname: '子项，点我改变'
+          }
+        ]
+      }
+    ]
+  };
+
+  computed = {
+    now() {
+      return +new Date()
+    }
+  };
+
+  methods = {
+  };
+
+  events = {
+  };
+
+  onLoad() {
+  }
+}
+</script>

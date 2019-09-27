@@ -1,0 +1,313 @@
+<template>
+  <view>
+    <view class="cu-bar search bg-white">
+      <view class="action">
+        <text>广州</text>
+        <text class="cuIcon-triangledownfill"></text>
+      </view>
+      <view class="search-form round">
+        <text class="cuIcon-search"></text>
+        <input type="text" placeholder="请输入小区" confirm-type="search" />
+      </view>
+      <view class="action">
+        <button class="cu-btn bg-blue shadow-blur round">搜索</button>
+      </view>
+    </view>
+    <view class="cu-card">
+      <view class="cu-item">
+        <view class="padding-sm">
+          <view class="text-bold text-xl">花园小区<view class="text-grey fr">3.1km</view></view>
+        </view>
+        <view class="content">
+          <view class="flex flex-wrap">
+            <view class="basis-sm">
+              <image class="fl padding-xs" src="/content/district.png" style="height:260rpx;width:260rpx"/>
+            </view>
+            <view class="basis-lg">
+              <view class="text-gray text-lg flex">
+                <text class="text-cut">小窝置家装饰工程有限公司</text>
+              </view>
+              <view class="text-gray text-lg flex">
+                <text class="text-cut">东美装饰工程有限公司</text>
+              </view>
+              <view class="text-gray text-lg flex">
+                <text class="text-cut">东美装饰工程有限公司</text>
+              </view>
+              <view class="text-gray text-lg flex">
+                <text class="text-cut">东美装饰工程有限公司</text>
+              </view>
+              <view class="padding-xs">
+                <view class="margin-bottom-sm">
+                  <view class="cu-tag fl line-orange round">5家装饰公司施工</view>
+                  <view class="cu-tag fl line-blue round">3个设计方案</view>
+                </view>
+              </view>
+            </view>
+          </view>          
+          
+        </view>
+      </view>
+      <view class="cu-item">
+        <view class="padding-sm">
+          <view class="text-bold text-xl">花园小区<view class="text-grey fr">3.1km</view></view>
+        </view>
+        <view class="content">
+          <view class="flex flex-wrap">
+            <view class="basis-sm">
+              <image class="fl padding-xs" src="/content/district.png" style="height:260rpx;width:260rpx"/>
+            </view>
+            <view class="basis-lg">
+              <view class="text-gray text-lg flex">
+                <text class="text-cut">小窝置家装饰工程有限公司</text>
+              </view>
+              <view class="text-gray text-lg flex">
+                <text class="text-cut">东美装饰工程有限公司</text>
+              </view>
+              <view class="text-gray text-lg flex">
+                <text class="text-cut">东美装饰工程有限公司</text>
+              </view>
+              <view class="text-gray text-lg flex">
+                <text class="text-cut">东美装饰工程有限公司</text>
+              </view>
+              <view class="padding-xs">
+                <view class="margin-bottom-sm">
+                  <view class="cu-tag fl line-orange round">5家装饰公司施工</view>
+                  <view class="cu-tag fl line-blue round">3个设计方案</view>
+                </view>
+              </view>
+            </view>
+          </view>          
+          
+        </view>
+      </view>
+      <view class="cu-item">
+        <view class="padding-sm">
+          <view class="text-bold text-xl">花园小区<view class="text-grey fr">3.1km</view></view>
+        </view>
+        <view class="content">
+          <view class="flex flex-wrap">
+            <view class="basis-sm">
+              <image class="fl padding-xs" src="/content/district.png" style="height:260rpx;width:260rpx"/>
+            </view>
+            <view class="basis-lg">
+              <view class="text-gray text-lg flex">
+                <text class="text-cut">小窝置家装饰工程有限公司</text>
+              </view>
+              <view class="text-gray text-lg flex">
+                <text class="text-cut">东美装饰工程有限公司</text>
+              </view>
+              <view class="text-gray text-lg flex">
+                <text class="text-cut">东美装饰工程有限公司</text>
+              </view>
+              <view class="text-gray text-lg flex">
+                <text class="text-cut">东美装饰工程有限公司</text>
+              </view>
+              <view class="padding-xs">
+                <view class="margin-bottom-sm">
+                  <view class="cu-tag fl line-orange round">5家装饰公司施工</view>
+                  <view class="cu-tag fl line-blue round">3个设计方案</view>
+                </view>
+              </view>
+            </view>
+          </view>          
+          
+        </view>
+      </view>
+      <view class="cu-item">
+        <view class="padding-sm">
+          <view class="text-bold text-xl">花园小区<view class="text-grey fr">3.1km</view></view>
+        </view>
+        <view class="content">
+          <view class="flex flex-wrap">
+            <view class="basis-sm">
+              <image class="fl padding-xs" src="/content/district.png" style="height:260rpx;width:260rpx"/>
+            </view>
+            <view class="basis-lg">
+              <view class="text-gray text-lg flex">
+                <text class="text-cut">小窝置家装饰工程有限公司</text>
+              </view>
+              <view class="text-gray text-lg flex">
+                <text class="text-cut">东美装饰工程有限公司</text>
+              </view>
+              <view class="text-gray text-lg flex">
+                <text class="text-cut">东美装饰工程有限公司</text>
+              </view>
+              <view class="text-gray text-lg flex">
+                <text class="text-cut">东美装饰工程有限公司</text>
+              </view>
+              <view class="padding-xs">
+                <view class="margin-bottom-sm">
+                  <view class="cu-tag fl line-orange round">5家装饰公司施工</view>
+                  <view class="cu-tag fl line-blue round">3个设计方案</view>
+                </view>
+              </view>
+            </view>
+          </view>          
+          
+        </view>
+      </view>
+      <view class="cu-item">
+        <view class="padding-sm">
+          <view class="text-bold text-xl">花园小区<view class="text-grey fr">3.1km</view></view>
+        </view>
+        <view class="content">
+          <view class="flex flex-wrap">
+            <view class="basis-sm">
+              <image class="fl padding-xs" src="/content/district.png" style="height:260rpx;width:260rpx"/>
+            </view>
+            <view class="basis-lg">
+              <view class="text-gray text-lg flex">
+                <text class="text-cut">小窝置家装饰工程有限公司</text>
+              </view>
+              <view class="text-gray text-lg flex">
+                <text class="text-cut">东美装饰工程有限公司</text>
+              </view>
+              <view class="text-gray text-lg flex">
+                <text class="text-cut">东美装饰工程有限公司</text>
+              </view>
+              <view class="text-gray text-lg flex">
+                <text class="text-cut">东美装饰工程有限公司</text>
+              </view>
+              <view class="padding-xs">
+                <view class="margin-bottom-sm">
+                  <view class="cu-tag fl line-orange round">5家装饰公司施工</view>
+                  <view class="cu-tag fl line-blue round">3个设计方案</view>
+                </view>
+              </view>
+            </view>
+          </view>          
+          
+        </view>
+      </view>
+      <view class="cu-item">
+        <view class="padding-sm">
+          <view class="text-bold text-xl">花园小区<view class="text-grey fr">3.1km</view></view>
+        </view>
+        <view class="content">
+          <view class="flex flex-wrap">
+            <view class="basis-sm">
+              <image class="fl padding-xs" src="/content/district.png" style="height:260rpx;width:260rpx"/>
+            </view>
+            <view class="basis-lg">
+              <view class="text-gray text-lg flex">
+                <text class="text-cut">小窝置家装饰工程有限公司</text>
+              </view>
+              <view class="text-gray text-lg flex">
+                <text class="text-cut">东美装饰工程有限公司</text>
+              </view>
+              <view class="text-gray text-lg flex">
+                <text class="text-cut">东美装饰工程有限公司</text>
+              </view>
+              <view class="text-gray text-lg flex">
+                <text class="text-cut">东美装饰工程有限公司</text>
+              </view>
+              <view class="padding-xs">
+                <view class="margin-bottom-sm">
+                  <view class="cu-tag fl line-orange round">5家装饰公司施工</view>
+                  <view class="cu-tag fl line-blue round">3个设计方案</view>
+                </view>
+              </view>
+            </view>
+          </view>          
+          
+        </view>
+      </view>
+      <view class="cu-item">
+        <view class="padding-sm">
+          <view class="text-bold text-xl">花园小区<view class="text-grey fr">3.1km</view></view>
+        </view>
+        <view class="content">
+          <view class="flex flex-wrap">
+            <view class="basis-sm">
+              <image class="fl padding-xs" src="/content/district.png" style="height:260rpx;width:260rpx"/>
+            </view>
+            <view class="basis-lg">
+              <view class="text-gray text-lg flex">
+                <text class="text-cut">小窝置家装饰工程有限公司</text>
+              </view>
+              <view class="text-gray text-lg flex">
+                <text class="text-cut">东美装饰工程有限公司</text>
+              </view>
+              <view class="text-gray text-lg flex">
+                <text class="text-cut">东美装饰工程有限公司</text>
+              </view>
+              <view class="text-gray text-lg flex">
+                <text class="text-cut">东美装饰工程有限公司</text>
+              </view>
+              <view class="padding-xs">
+                <view class="margin-bottom-sm">
+                  <view class="cu-tag fl line-orange round">5家装饰公司施工</view>
+                  <view class="cu-tag fl line-blue round">3个设计方案</view>
+                </view>
+              </view>
+            </view>
+          </view>          
+          
+        </view>
+      </view>
+      <view class="cu-item">
+        <view class="padding-sm">
+          <view class="text-bold text-xl">花园小区<view class="text-grey fr">3.1km</view></view>
+        </view>
+        <view class="content">
+          <view class="flex flex-wrap">
+            <view class="basis-sm">
+              <image class="fl padding-xs" src="/content/district.png" style="height:260rpx;width:260rpx"/>
+            </view>
+            <view class="basis-lg">
+              <view class="text-gray text-lg flex">
+                <text class="text-cut">小窝置家装饰工程有限公司</text>
+              </view>
+              <view class="text-gray text-lg flex">
+                <text class="text-cut">东美装饰工程有限公司</text>
+              </view>
+              <view class="text-gray text-lg flex">
+                <text class="text-cut">东美装饰工程有限公司</text>
+              </view>
+              <view class="text-gray text-lg flex">
+                <text class="text-cut">东美装饰工程有限公司</text>
+              </view>
+              <view class="padding-xs">
+                <view class="margin-bottom-sm">
+                  <view class="cu-tag fl line-orange round">5家装饰公司施工</view>
+                  <view class="cu-tag fl line-blue round">3个设计方案</view>
+                </view>
+              </view>
+            </view>
+          </view>          
+          
+        </view>
+      </view>
+    </view>
+  </view>
+</template>
+
+<script>
+  import wepy from 'wepy'
+
+  export default class Village extends wepy.page {
+    config = {
+      navigationBarTitleText: '我的小区'
+    }
+    components = {
+    }
+
+    data = {
+    }
+
+    computed = {
+      now () {
+        return +new Date()
+      }
+    }
+
+    methods = {
+    }
+
+    events = {
+    }
+
+    onLoad() {
+    }
+  }
+</script>

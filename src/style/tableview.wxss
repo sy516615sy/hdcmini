@@ -1,0 +1,41 @@
+@import "./common.wxss";
+.table {
+  max-width: 100%;
+  clear: both;  
+}
+
+.table .tr {
+  width: 100%;
+  float: left;
+  line-height: 52rpx;
+  
+}
+
+.table .tr .th{
+  font-weight: bold;
+  float: left;
+  text-align: left;
+}
+
+.table .tr .th-center{
+  font-weight: bold;
+  float: left;
+  text-align: center;
+}
+
+.table .tr .last-th{
+  font-weight: bold;
+  float: left;
+  text-align: center;
+}
+
+.table .tr .td{
+  float: left;
+  text-align: left;  
+}
+
+.table .tr .last-td{
+  float: left;
+  text-align: center;  
+}
+

@@ -1,0 +1,18 @@
+@import "./common.wxss";
+.card {
+  clear: both;
+  background: #fff;
+  box-shadow: 0 4rpx 20rpx rgba(0, 0, 0, 0.2);
+}
+
+.card .header {
+  font-weight: bold;
+  padding: 20rpx;
+  border-bottom: 2rpx solid rgba(204, 204, 204, 0.35);
+}
+
+.card .body {
+  font-size: 24rpx;
+  color: #555;
+  padding: 20rpx;
+}
